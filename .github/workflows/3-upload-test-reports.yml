@@ -12,7 +12,7 @@ on:
       - ci
     paths:
       - .github/workflows/ci.yml
-
+ 
 # Reference: https://docs.github.com/actions/security-guides/automatic-token-authentication
 permissions:
   # Need `contents: read` to checkout the repository.
@@ -71,3 +71,4 @@ jobs:
           from_step: 3
           to_step: 4
           branch_name: ci
+
